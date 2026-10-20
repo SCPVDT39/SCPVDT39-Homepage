@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SCPVDT39 - MOD制作</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+
+    <a href="../index.html" class="site-logo">
+        SCPVDT39
+    </a>
+
+    <button
+        id="menu-toggle"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+    >
+        ☰
+    </button>
+
+    <nav class="site-nav">
+
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="mods.html">MOD</a>
+        <a href="games.html">Games</a>
+        <a href="works.html">Works</a>
+        <a href="sns.html">SNS</a>
+
+        <button
+            id="theme-toggle"
+            type="button"
+            aria-label="テーマを切り替える"
+        >
+            ☀️
+        </button>
+
+    </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ページタイトル -->
+        <section>
+
+            <h2>MOD制作</h2>
+
+            <p>
+                現在制作・企画しているMODの情報を掲載しています。
+            </p>
+
+        </section>
+
+
+        <!-- 制作中MOD -->
+        <section>
+
+            <h2>現在制作中</h2>
+
+
+            <!-- MODカード -->
+            <div class="mod-card">
+
+                <div class="mod-header">
+
+                    <h3>FNF' GT Remix</h3>
+
+                    <span class="status status-making">
+                        企画中
+                    </span>
+
+                </div>
+
+
+
+                <p class="mod-description">
+                    現在は、一部のキャラクターデザインのみ完成しています。
+                    予定では、V-Sliceと○○を作成する予定
+                </p>
+
+
+                <!-- 進捗 -->
+                <div class="progress-area">
+
+                    <div class="progress-info">
+
+                        <span>制作進捗</span>
+
+                        <strong>02%</strong>
+
+                    </div>
+
+
+                    <progress value="02" max="100"></progress>
+
+                </div>
+
+
+                <!-- 詳細 -->
+                <div class="mod-info">
+
+                    <p>
+                        <strong>ジャンル：</strong>
+                        Friday Night Funkin'
+                    </p>
+
+                    <p>
+                        <strong>ステータス：</strong>
+                        企画中
+                    </p>
+
+                    <p>
+                        <strong>最終更新：</strong>
+                        2026/09/25
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="mod-card">
+
+                <div class="mod-header">
+
+                    <h3>FNF' GT Remix SideStory 「JEAR」</h3>
+
+                    <span class="status status-making">
+                        企画中
+                    </span>
+
+                </div>
+
+
+
+                <p class="mod-description">
+
+                    現在は少人数のキャラクターデザインのみ完成しています。
+                </p>
+
+
+                <!-- 進捗 -->
+                <div class="progress-area">
+
+                    <div class="progress-info">
+
+                        <span>制作進捗</span>
+
+                        <strong>03%</strong>
+
+                    </div>
+
+
+                    <progress value="03" max="100"></progress>
+
+                </div>
+
+
+                <!-- 詳細 -->
+                <div class="mod-info">
+
+                    <p>
+                        <strong>ジャンル：</strong>
+                        Friday Night Funkin'
+                    </p>
+
+                    <p>
+                        <strong>ステータス：</strong>
+                        企画中
+                    </p>
+
+                    <p>
+                        <strong>最終更新：</strong>
+                        2026/09/25
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 協力者募集 -->
+        <section>
+
+            <h2>協力者募集</h2>
+
+            <div class="recruit-card">
+
+                <p>
+                    現在、MOD制作に協力してくれる方を募集しています。
+
+                </p>
+
+
+                <div class="recruit-list">
+
+                    <div>
+                        <h3>🎵 作曲</h3>
+                        <p>
+                            MOD用の楽曲制作
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <h3>🎨 イラスト</h3>
+                        <p>
+                            キャラクター・背景
+                            スプライトなどのデザイン
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <h3>🎹 譜面制作</h3>
+                        <p>
+                            楽曲のノーツ・譜面制作
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <h3>🧪 テストプレイ</h3>
+                        <p>
+                            バグや難易度などの確認
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MOD制作についての連絡 -->
+
+<section>
+
+    <h2>MOD制作についてのご連絡</h2>
+
+    <div class="contact-card">
+
+        <p>
+            MOD制作についてご連絡したい方はこちらから送信してください。
+        </p>
+
+
+        <form id="mod-contact-form">
+
+            <!-- 所持アカウント -->
+
+            <div class="form-group">
+
+                <label for="account-type">
+                    所持アカウントはどれですか？
+                </label>
+
+                <select
+                    id="account-type"
+                    name="accountType"
+                    required
+                >
+                    <option value="">
+                        選択してください
+                    </option>
+
+                    <option value="X">
+                        X
+                    </option>
+
+                    <option value="Instagram">
+                        Instagram
+                    </option>
+
+                    <option value="Discord">
+                        Discord
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- アカウント名 -->
+
+            <div class="form-group">
+
+                <label for="account-name">
+                    アカウント名を入力してください
+                </label>
+
+                <input
+                    type="text"
+                    id="account-name"
+                    name="accountName"
+                    placeholder="@～～～～～～"
+                    required
+                >
+
+            </div>
+
+
+            <!-- 内容 -->
+
+            <div class="form-group">
+
+                <label for="contact-message">
+                    内容を入力してください
+                </label>
+
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="7"
+                    placeholder="～～～～～～～～～～"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <!-- DMについて -->
+
+            <div class="form-checkbox">
+
+                <label>
+
+                    <input
+                        type="checkbox"
+                        id="dm-confirm"
+                        required
+                    >
+
+                    入力したアカウントでDMを送受信できる状態にしています
+
+                </label>
+
+            </div>
+
+
+            <p class="contact-note">
+                ※ご連絡いただいたアカウントに、私が所持している
+                アカウントからDMを送信させていただきます。
+                <br>
+                私が所持しているアカウントはSNSページよりご確認いただけます。
+            </p>
+
+
+            <button
+                type="submit"
+                class="contact-submit"
+            >
+                送信
+            </button>
+
+        </form>
+        <div
+        id="contact-success"
+        class="contact-success"
+        hidden
+    >
+        <h3>ご連絡ありがとうございます</h3>
+
+        <p>
+            入力されたアカウントに、私が所持しているアカウントから
+            DMを送信させていただきます。
+        </p>
+
+        <p>
+            ご連絡いただいたアカウントは、
+            <a href="sns.html">SNSページ</a>
+            よりご確認いただけます。
+        </p>
+
+        <p>
+            なお、入力された情報は外部に漏らすことはありません。<br>
+            責任をもって管理させていただきます。
+        </p>
+
+        <p>
+            ご連絡への対応がすべて完了した後、
+            入力された情報は削除します。
+        </p>
+
+        <p>
+            <strong>
+                ※DMを受け取れる状態・送受信できる状態にしておいてください。
+            </strong>
+        </p>
+        </div>
+
+
+        <!-- 送信完了画面 -->
+
+        <div
+            id="contact-success"
+            class="contact-success"
+            hidden
+        >
+
+            <h3>ご連絡ありがとうございます</h3>
+
+            <p>
+                入力されたアカウントに、私が所持している
+                アカウントからDMを送信させていただきます。
+            </p>
+
+            <p>
+                私が所持しているアカウントは、
+                SNSページよりご確認いただけます。
+            </p>
+
+            <p>
+                なお、入力された情報はMOD制作に関する連絡以外の目的では使用しません。
+                <br>
+                対応完了後は、入力内容を削除します。
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- 更新履歴 -->
+        <section>
+
+            <h2>更新履歴</h2>
+
+            <div class="update-list">
+
+                <div class="update-item">
+
+                    <span>2026/09/25</span>
+
+                    <p>
+                        MOD制作ページを公開。
+                    </p>
+
+                </div>
+
+
+                <!-- 後からここに追加 -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 SCPVDT39
+        </p>
+
+    </footer>
+
+    <button
+    id="back-to-top"
+    type="button"
+    aria-label="ページ上部へ戻る"
+>
+    ↑
+</button>
+
+
+    <script src="../js/script.js"></script>
+<div id="image-lightbox">
+    <button
+        id="lightbox-close"
+        type="button"
+        aria-label="画像を閉じる"
+    >
+        ×
+    </button>
+
+    <img
+        id="lightbox-image"
+        src=""
+        alt=""
+    >
+    </div>
+</body>
+
+</html>
